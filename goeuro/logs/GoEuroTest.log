@@ -1,0 +1,41 @@
+2016-02-06 09:56:25 INFO  ClassPathXmlApplicationContext:510 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@70dc57db: startup date [Sat Feb 06 09:56:25 CET 2016]; root of context hierarchy
+2016-02-06 09:56:25 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [src/META-INF/spring-config.xml]
+2016-02-06 09:56:42 INFO  ClassPathXmlApplicationContext:510 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@120c24c0: startup date [Sat Feb 06 09:56:42 CET 2016]; root of context hierarchy
+2016-02-06 09:56:42 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [META-INF/spring-config.xml]
+2016-02-06 09:57:22 INFO  ClassPathXmlApplicationContext:510 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@69d6065: startup date [Sat Feb 06 09:57:22 CET 2016]; root of context hierarchy
+2016-02-06 09:57:22 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [META-INF/spring-config.xml]
+2016-02-06 09:57:51 INFO  ClassPathXmlApplicationContext:510 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5b40c281: startup date [Sat Feb 06 09:57:51 CET 2016]; root of context hierarchy
+2016-02-06 09:57:52 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [META-INF/spring-config.xml]
+2016-02-06 09:57:53 INFO  ExportServiceImpl:44 - reading json data from url http://api.goeuro.com/api/v2/position/suggest/en/Berlin
+2016-02-06 09:57:54 INFO  ExportServiceImpl:47 - parsing json
+2016-02-06 09:57:54 INFO  ExportServiceImpl:50 - creating csv string
+2016-02-06 09:57:54 INFO  ExportServiceImpl:58 - export data to file export.csv
+2016-02-06 09:57:54 INFO  ExportServiceImpl:59 - setting charset UTF-8 for file export.csv
+2016-02-06 10:04:47 INFO  AnnotationConfigApplicationContext:510 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2ca6d51e: startup date [Sat Feb 06 10:04:47 CET 2016]; root of context hierarchy
+2016-02-06 10:04:47 INFO  DefaultListableBeanFactory:822 - Overriding bean definition for bean 'propertySourcesPlaceholderConfigurer': replacing [Root bean: class [it.tony.services.ExportServiceImpl]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=propertySourcesPlaceholderConfigurer; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [it/tony/services/ExportServiceImpl.class]] with [Root bean: class [it.tony.JsonToCSVApp]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=propertySourcesPlaceholderConfigurer; initMethodName=null; destroyMethodName=(inferred); defined in it.tony.JsonToCSVApp]
+2016-02-06 10:04:47 INFO  ExportServiceImpl:44 - reading json data from url http://api.goeuro.com/api/v2/position/suggest/en/Matera
+2016-02-06 10:04:50 INFO  ExportServiceImpl:47 - parsing json
+2016-02-06 10:04:50 INFO  ExportServiceImpl:50 - creating csv string
+2016-02-06 10:04:50 INFO  ExportServiceImpl:58 - export data to file ./export.csv
+2016-02-06 10:04:50 INFO  ExportServiceImpl:59 - setting charset UTF-8 for file ./export.csv
+2016-02-06 10:05:05 INFO  AnnotationConfigApplicationContext:510 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7f2a3793: startup date [Sat Feb 06 10:05:05 CET 2016]; root of context hierarchy
+2016-02-06 10:05:05 INFO  DefaultListableBeanFactory:822 - Overriding bean definition for bean 'propertySourcesPlaceholderConfigurer': replacing [Root bean: class [it.tony.services.ExportServiceImpl]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=propertySourcesPlaceholderConfigurer; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [it/tony/services/ExportServiceImpl.class]] with [Root bean: class [it.tony.JsonToCSVApp]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=propertySourcesPlaceholderConfigurer; initMethodName=null; destroyMethodName=(inferred); defined in it.tony.JsonToCSVApp]
+2016-02-06 10:05:06 INFO  ExportServiceImpl:44 - reading json data from url http://api.goeuro.com/api/v2/position/suggest/en/xdfghjk
+2016-02-06 10:05:06 INFO  ExportServiceImpl:47 - parsing json
+2016-02-06 10:05:06 INFO  ExportServiceImpl:50 - creating csv string
+2016-02-06 10:05:06 INFO  ExportServiceImpl:58 - export data to file ./export.csv
+2016-02-06 10:05:06 INFO  ExportServiceImpl:59 - setting charset UTF-8 for file ./export.csv
+2016-02-06 10:12:38 INFO  AnnotationConfigApplicationContext:510 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7cf1bb78: startup date [Sat Feb 06 10:12:38 CET 2016]; root of context hierarchy
+2016-02-06 10:12:38 INFO  DefaultListableBeanFactory:822 - Overriding bean definition for bean 'propertySourcesPlaceholderConfigurer': replacing [Root bean: class [it.tony.services.ExportServiceImpl]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=propertySourcesPlaceholderConfigurer; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [it/tony/services/ExportServiceImpl.class]] with [Root bean: class [it.tony.JsonToCSVApp]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=propertySourcesPlaceholderConfigurer; initMethodName=null; destroyMethodName=(inferred); defined in it.tony.JsonToCSVApp]
+2016-02-06 10:12:38 INFO  ExportServiceImpl:45 - reading json data from url http://api.goeuro.com/api/v2/position/suggest/en/xdfghjk
+2016-02-06 10:12:40 INFO  ExportServiceImpl:48 - parsing json
+2016-02-06 10:12:40 INFO  ExportServiceImpl:51 - creating csv string
+2016-02-06 10:12:40 INFO  ExportServiceImpl:64 - export data to file ./export.csv
+2016-02-06 10:12:40 INFO  ExportServiceImpl:65 - setting charset UTF-8 for file ./export.csv
+2016-02-06 10:14:00 INFO  AnnotationConfigApplicationContext:510 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2aca0115: startup date [Sat Feb 06 10:14:00 CET 2016]; root of context hierarchy
+2016-02-06 10:14:00 INFO  DefaultListableBeanFactory:822 - Overriding bean definition for bean 'propertySourcesPlaceholderConfigurer': replacing [Root bean: class [it.tony.services.ExportServiceImpl]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=propertySourcesPlaceholderConfigurer; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [it/tony/services/ExportServiceImpl.class]] with [Root bean: class [it.tony.JsonToCSVApp]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=propertySourcesPlaceholderConfigurer; initMethodName=null; destroyMethodName=(inferred); defined in it.tony.JsonToCSVApp]
+2016-02-06 10:14:00 INFO  ExportServiceImpl:45 - reading json data from url http://api.goeuro.com/api/v2/position/suggest/en/Matera
+2016-02-06 10:14:01 INFO  ExportServiceImpl:48 - parsing json
+2016-02-06 10:14:01 INFO  ExportServiceImpl:51 - creating csv string
+2016-02-06 10:14:01 INFO  ExportServiceImpl:64 - export data to file ./export.csv
+2016-02-06 10:14:01 INFO  ExportServiceImpl:65 - setting charset UTF-8 for file ./export.csv
